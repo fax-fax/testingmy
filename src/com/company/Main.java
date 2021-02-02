@@ -35,5 +35,12 @@ public class Main {
         y = y - x;
         System.out.println(x);
         System.out.println(y);
+        //
+        TestArrayList tal= new TestArrayList();
+        tal.Test();
+
+        MyControlMesseges cm= new MyControlMesseges();
+        cm.DebuggingList();
+
     }
 }
