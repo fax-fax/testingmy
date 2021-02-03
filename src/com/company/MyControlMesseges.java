@@ -17,5 +17,11 @@ public class MyControlMesseges {
             сontrolMesseges.add(secondmess);
             сontrolMesseges.add(thirdmess);
             System.out.println(сontrolMesseges);
+
+            for (int i = 0; i <  сontrolMesseges.size(); i++) {
+                int j = сontrolMesseges.size() - i - 1;
+                System.out.println( сontrolMesseges.get(j));
+            }
+
         }
 }
