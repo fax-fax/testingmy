@@ -16,11 +16,13 @@ public class MyControlMesseges {
             сontrolMesseges.add(firstmess);
             сontrolMesseges.add(secondmess);
             сontrolMesseges.add(thirdmess);
-            System.out.println(сontrolMesseges);
+
+            System.out.println(сontrolMesseges.get(0).getMessegeStr());
+            System.out.println(сontrolMesseges.get(0).getNumberStr());
 
             for (int i = 0; i <  сontrolMesseges.size(); i++) {
                 int j = сontrolMesseges.size() - i - 1;
-                System.out.println( сontrolMesseges.get(j));
+                System.out.println( сontrolMesseges.get(j).getMessegeStr());
             }
 
         }

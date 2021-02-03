@@ -12,4 +12,12 @@ public class ControlMessege {
         this.messegeStr = messegeStr;
         this.numberStr = numberStr;
     }
+
+    public String getMessegeStr() {
+        return messegeStr;
+    }
+
+    public int getNumberStr() {
+        return numberStr;
+    }
 }
